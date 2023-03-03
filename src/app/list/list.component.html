@@ -1,0 +1,18 @@
+<ul>
+    <li>{{presidents[0]}}</li>
+    <li>{{presidents[1]}}</li>
+    <li>{{presidents[2]}}</li>
+    <li>{{presidents[3]}}</li>
+</ul>
+
+<ol>
+    <li *ngFor="let xyz of presidents"> 
+        {{xyz}}
+    </li>
+</ol>
+
+<ul>
+    <li *ngFor="let abc of president2">
+        {{abc.name}},{{abc.term}}
+    </li>
+</ul>
